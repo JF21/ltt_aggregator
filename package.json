@@ -1,0 +1,17 @@
+{
+  "name": "ltt_aggregator",
+  "version": "1.0.0",
+  "description": "compile playlist of tracks from the listen-to-this channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^1.4.1",
+    "console-stamp": "^0.2.9",
+    "dotenv": "^8.2.0",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
